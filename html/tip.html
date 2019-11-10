@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/tip.css">
+        <script src="../js/tip.js"></script>
+        <title>TIP CALCULATOR</title>
+       
+    </head>
+    <body>
+        <div id="d1">
+        TIP CALCULATOR
+         </div>  
+        <div id="f1">
+         <form>
+             Enter Bill Amount:
+            <label> </label> <br>
+            <input id="bill_amount" type="number">
+            <br>
+            How was the service : <br>
+            <select id="service">
+            <option value="25">Outstanding</option>
+            <option value="20">Excellent</option>
+            <option value="15">Good</option>
+            <option value="10">Poor</option>
+            <option value="5">Very poor</option>
+            </select>
+         </form>
+         <!-- <br> -->
+        </div>
+        <div id ="s1">
+            <input type = "submit"  id ="i1" onclick="calculate_tip()" value="Calculate tip">        
+        <br>
+        The tip amount to be paid is : <br> <div id="ans"> </div>
+        </div>
+    </body>
+
+</html>
