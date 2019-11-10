@@ -1,0 +1,58 @@
+@font-face {
+  font-family: My;
+  src: url(CaveatBrush-Regular.ttf);
+}
+body{
+  background-image: url("../images/tip.jpg");
+  background-repeat: no-repeat;
+  background-size :1900px 1000px ;
+}
+label{
+  display:inline-block;
+  width:10px;
+
+}
+#f1{
+  font-family:My;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+
+    /* background-image: url("../images/19.jpg");
+    background-repeat: no-repeat;
+    background-size :1900px 1000px ; */
+  }
+
+#d1{
+  margin-top:160px;
+  font-family:My;
+  font-size: 100px;
+  color:tomato;
+  text-align : center;
+} 
+#s1{
+  font-family:My;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+
+}
+#ans{
+  font-size: 70px;
+}
+#service{
+  font-family:My;
+  text-align: center;
+  font-size: 30px;
+}
+#bill_amount{
+  font-family:My;
+  text-align: center;
+  font-size: 30px;
+}
+#i1{
+  font-family:My;
+  text-align: center;
+  font-size: 30px;
+ 
+}
